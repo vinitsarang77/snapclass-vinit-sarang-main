@@ -52,15 +52,13 @@ def style_background_dashboard():
                 }
             </style>
                 """, unsafe_allow_html=True)
-
+    
 def style_base_layout():
-
     st.markdown("""
                 <style>
                 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
                     /* Hide Top Bar of Streamlit */
-    
                     #MainMenu, footer, header {
                         visibility: hidden;
                         }

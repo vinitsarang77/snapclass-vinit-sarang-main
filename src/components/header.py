@@ -11,3 +11,14 @@ def header_home():
     </div>
     
     """, unsafe_allow_html=True)
+
+def header_dashboard():
+
+    logo_url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBIW-EEFHgwsRRFX6TFrc6cIx0iSY4R6vggFqaA6geA&s=10"
+    st.markdown(f"""
+    <div style="display:flex; align-items:center; justify-content:center; gap:10px;">
+        <img src='{logo_url}' style='height:75px;' />
+        <h2 style='text-align:left; color:#5865F2'>SNAP</br> CLASS </h2>
+    </div>
+    
+    """, unsafe_allow_html=True)

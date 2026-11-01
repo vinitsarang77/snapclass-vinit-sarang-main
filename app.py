@@ -22,7 +22,7 @@ def main():
 # """, unsafe_allow_html=True)
     st.set_page_config(
         page_title= 'SnapClass - AI Smart Attendance',
-        page_icon= 'D:/Vinit Sarang/AI_ML_Batch/My Projects/Snap_Class/images/page_icon.png'
+        page_icon= 'static/img/page_icon.png'
     )
 
     if 'login_type' not in st.session_state:
